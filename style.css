@@ -1,0 +1,251 @@
+/* 網站配色：森林綠、奶油白、萊姆綠 */
+:root{--forest:#173d30;--deep:#0c2d23;--lime:#d6ff63;--cream:#f7f6ef;--sage:#e9f0e4;--ink:#233b30;--muted:#6b7c71;--line:#dfe6db}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;background:var(--cream);color:var(--ink);font-family:"微軟正黑體","Noto Sans TC",sans-serif}a{text-decoration:none;color:inherit}button,select,input{font:inherit}button{cursor:pointer}button:disabled{opacity:.5;cursor:not-allowed}img{display:block;max-width:100%}h1,h2,h3,h4,p{margin-top:0}.nav{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:30px;justify-content:space-between;background:#fffdf6f5;border-bottom:1px solid #e8e9dd;padding:14px 5.5%;backdrop-filter:blur(15px)}.logo{display:flex;align-items:center;gap:10px;font-size:16px;white-space:nowrap}.logo-mark{background:var(--forest);color:var(--lime);border-radius:12px;padding:9px;font-size:22px}.logo b{color:#367a55}.logo small{display:block;color:#829285;font-size:9px;letter-spacing:2px;margin-top:4px}.nav nav{display:flex;gap:23px;flex-wrap:wrap}.nav nav a{font-size:12px;font-weight:700}.nav nav a:hover{color:#4b8d59}.nav-points{display:flex;align-items:center;gap:10px;background:var(--forest);color:white;border-radius:30px;padding:9px 15px;font-size:12px;white-space:nowrap}.nav-points b{color:var(--lime);font-size:18px}.hero{position:relative;min-height:600px;overflow:hidden;background:var(--forest);color:white;display:flex;align-items:center}.hero-photo,.hero-shade{position:absolute;inset:0;width:100%;height:100%}.hero-photo{object-fit:cover;object-position:center 42%}.hero-shade{background:linear-gradient(90deg,#082d22fa 0%,#0e372adf 40%,#123a2990 70%,#0a302780 100%)}.hero-copy{position:relative;z-index:1;padding:95px 6.5%;width:min(760px,72%)}.kicker{font-size:11px;letter-spacing:2.2px;color:#598368;font-weight:800}.kicker.light{color:var(--lime)}.hero h1{font-size:clamp(38px,5vw,70px);line-height:1.32;letter-spacing:1px;margin:24px 0}.hero h1 em{font-style:normal;color:var(--lime)}.hero-copy>p{max-width:550px;color:#e2eee4;line-height:2;font-size:14px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:30px 0}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:10px;padding:13px 20px;font-size:13px;font-weight:800;transition:transform .2s,filter .2s}.btn:hover:not(:disabled){transform:translateY(-3px);filter:brightness(1.05)}.btn.lime{background:var(--lime);color:var(--deep)}.btn.glass{border:1px solid #fff9;background:#ffffff1a;color:white}.btn.dark{background:var(--forest);color:white}.hero-mini{font-size:11px;color:#c6d9c8;margin-top:35px}.hero-sticker{position:absolute;right:8%;top:23%;z-index:2;width:220px;height:270px;background:var(--lime);color:var(--forest);padding:26px;border-radius:12px 20px 20px 12px;border-left:11px solid #a7c94c;box-shadow:20px 22px 0 #ffffff20;transform:rotate(9deg)}.hero-sticker>span{font-size:12px;letter-spacing:3px}.hero-sticker strong{display:block;font-family:Georgia,serif;font-size:42px;line-height:1.03;margin:32px 0}.hero-sticker small{font-size:10px}.hero-sticker b{position:absolute;bottom:15px;right:19px;font-size:42px}.ticker{display:flex;justify-content:space-around;gap:20px;background:var(--lime);padding:17px 20px;font-size:12px;font-weight:900;color:var(--forest);flex-wrap:wrap}.section{padding:85px 6.5%}.intro{display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:center;padding-bottom:45px}.intro h2,.section-heading h2,.planner h2,.passport h2{font-size:clamp(29px,3.6vw,49px);line-height:1.35;margin:15px 0}.intro h2 i,.section-heading h2 i,.planner h2 i{font-style:normal;color:#7aa264}.intro>p{font-size:14px;color:var(--muted);line-height:2}.tiles{padding-top:0;display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.tile{height:330px;border-radius:17px;position:relative;overflow:hidden;color:white;background:var(--forest);transition:transform .25s}.tile:hover{transform:translateY(-6px)}.tile>img{width:100%;height:100%;object-fit:cover;transition:transform .3s}.tile:hover img{transform:scale(1.05)}.tile-shade{position:absolute;inset:0;background:linear-gradient(0deg,#0b2e25f5,#0b2e2512 75%)}.tile-copy{position:absolute;bottom:0;left:0;right:0;padding:22px}.tile-copy small{font-size:10px;color:var(--lime)}.tile-copy strong{display:block;font-size:24px;margin:10px 0}.tile-copy>span{font-size:11px;color:#e4eee3}.tile-daily{background:#b9d2a9;color:var(--deep)}.tile-daily .tile-copy small,.tile-daily .tile-copy>span{color:var(--deep)}.tile-art{font-size:60px;text-align:center;padding-top:65px}.tile-art span{font-size:90px}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:32px}.section-heading h2{margin:12px 0}.section-heading p{font-size:13px;line-height:1.9;color:var(--muted)}.section-number{font-family:Georgia,serif;font-size:90px;color:#d5e1d3;line-height:1}.market{background:#edf2e8}.dot{color:#6d9657;margin-left:10px}.market-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;margin-bottom:32px}.market-cards article{border-radius:16px;padding:27px;min-height:245px;background:#fffdf6;border:1px solid #dce5d9}.market-cards article:nth-child(2){background:#e1ebd7}.market-cards article:nth-child(3){background:#e9e5d7}.market-symbol{font-size:43px;color:#598b55;margin-bottom:15px}.market-cards small{font-size:11px;color:#64876b}.market-cards h3{font-size:22px;margin:9px 0}.market-cards p{font-size:12px;line-height:1.9;color:#6b7d70}.ai-lab{background:var(--forest);color:white;border-radius:24px;padding:38px;display:grid;grid-template-columns:.85fr 1.15fr;gap:35px}.ai-title{padding:20px 10px}.ai-title h3{font-size:clamp(29px,3vw,42px);line-height:1.4;margin:25px 0}.ai-title p{font-size:13px;line-height:2;color:#d2e4d3}.ai-box{background:#f9faf3;color:var(--ink);border-radius:16px;padding:30px}.quiz-top{display:flex;justify-content:space-between;gap:10px;font-size:12px}.quiz-top span{color:#77907b}.meter{height:7px;border-radius:10px;background:#dce7d8;overflow:hidden;margin:15px 0}.meter span{display:block;height:100%;background:#8aba63;width:0;transition:width .25s}.ai-box h4{font-size:20px;line-height:1.5;margin:22px 0}.quiz-options{display:grid;grid-template-columns:1fr 1fr;gap:10px}.quiz-options button{border:1px solid #d8e4d2;border-radius:10px;background:white;padding:14px 12px;color:var(--forest);text-align:left;font-size:12px}.quiz-options button:hover{background:var(--lime)}.quiz-result{font-size:12px;color:#496f51;line-height:1.8;margin-top:15px;white-space:pre-line}.hunt{background:#d5ff72;border-radius:20px;padding:30px;margin-top:20px;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.hunt h3{font-size:27px;margin:10px 0}.hunt p{font-size:12px;line-height:1.9}.hunt-task{background:#ffffffbd;border-radius:14px;padding:23px}.hunt-task strong{font-size:18px}.hunt-task .btn{margin-top:10px}.fashion{margin-top:28px;background:#fffdf6;border-radius:22px;padding:32px}.fashion-head{display:flex;justify-content:space-between;align-items:center}.fashion-head h3{font-size:clamp(27px,3vw,40px);margin:12px 0}.fashion-head h3 i{font-style:normal;color:#739966}.fashion-head p{color:var(--muted);font-size:13px}.fashion-deco{font-size:90px;color:#b7dba1}.fashion-body{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:stretch;margin-top:18px}.fashion-gallery{display:grid;grid-template-columns:1fr 95px;gap:12px;min-height:430px}.look-main{background:#e6e8dc;border-radius:15px;overflow:hidden}.look-main img{width:100%;height:100%;object-fit:cover;object-position:center top}.look-thumbs{display:grid;grid-template-rows:repeat(3,1fr);gap:10px}.look-thumb{padding:0;border:3px solid transparent;border-radius:12px;overflow:hidden;background:#e5e6db}.look-thumb.selected{border-color:#4c8559}.look-thumb img{width:100%;height:100%;object-fit:cover;object-position:top}.fashion-control{background:#eff3e9;border-radius:15px;padding:26px;display:flex;flex-direction:column;gap:11px}.fashion-label{font-size:21px;font-weight:800;margin-bottom:10px}.fashion-control label,.planner-card label,.form-grid label,.weight-label{font-size:12px;color:#617769;display:flex;flex-direction:column;gap:8px}.fashion-control select,.planner-card select,.form-grid select,.form-grid input,.weight-label input{border:1px solid #d7e2d2;background:white;border-radius:9px;padding:12px;width:100%;color:var(--ink)}.fashion-control .btn{margin-top:8px}.fashion-answer{background:white;border-radius:11px;padding:18px;margin-top:7px;line-height:1.8}.fashion-answer b{font-size:17px}.fashion-answer p{font-size:12px;color:#5c7362;margin:10px 0}.fashion-answer small{font-size:10px;color:#889788}.charge{background:#fffdf7}.shuttle{background:#e6eee3}.feature{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}.feature.reverse .feature-photo{order:2}.feature-photo{position:relative;min-height:480px;border-radius:18px;overflow:hidden;background:#dbe4d8}.feature-photo img{width:100%;height:100%;object-fit:cover}.feature-photo span{position:absolute;bottom:17px;left:17px;background:#ffffffed;color:var(--forest);border-radius:25px;padding:9px 14px;font-size:11px}.feature-card{background:#f2f5ed;border-radius:18px;padding:34px;display:flex;flex-direction:column;align-items:start}.feature-card h3{font-size:27px;margin:17px 0}.feature-card h3 span{color:#719d6c}.feature-card>p{font-size:13px;line-height:2;color:#617566}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;width:100%;margin:12px 0 20px}.form-grid .wide{grid-column:1/-1}.feature-card .btn{width:100%}.calc-answer{width:100%;margin-top:17px;background:#dcff9c;border-radius:12px;padding:20px;color:var(--forest)}.calc-answer small{font-size:11px}.calc-answer strong{display:block;font-size:44px;margin:8px 0}.calc-answer strong span{font-size:16px}.calc-answer p{font-size:12px;line-height:1.7;margin:0}.fine{font-size:11px!important;line-height:1.9!important;color:#7d8b7d!important;margin-top:16px}.pill{font-size:11px;border-radius:20px;background:#e0ecd8;color:#527a54;padding:8px 12px}.shuttle-counter{display:grid;grid-template-columns:1fr 1fr;gap:12px;width:100%;margin:20px 0}.shuttle-counter>div{background:white;border-radius:12px;padding:18px}.shuttle-counter small{display:block;color:#748776;font-size:11px}.shuttle-counter strong{display:block;color:var(--forest);font-size:33px;margin-top:9px}.shuttle-counter strong span{font-size:12px}.inline-feedback{margin-top:13px;color:#5b7a5e;font-size:12px;line-height:1.7}.daily{background:#fffdf6}.daily-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.daily-cards article{border-radius:18px;background:#e9f0e3;padding:27px;min-height:315px;display:flex;flex-direction:column}.daily-cards article:nth-child(2){background:#efe8d8}.daily-cards article:nth-child(3){background:#e0eadb}.daily-icon{font-size:42px;margin-bottom:16px}.daily-cards article>span{font-size:11px;color:#719176}.daily-cards h3{font-size:22px;margin:12px 0}.daily-cards p{font-size:12px;line-height:1.9;color:#627665}.daily-bottom{margin-top:auto;display:flex;justify-content:space-between;gap:10px;align-items:center;padding-top:18px}.daily-bottom b{font-size:15px;color:var(--forest)}.daily-bottom .btn{padding:11px 13px;font-size:11px}.weight-label{margin-top:auto}.weight-label input{max-width:160px}.planner{background:var(--forest);color:white;display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}.planner h2{margin:25px 0}.planner h2 i{color:var(--lime)}.planner>div:first-child>p{font-size:13px;color:#d5e6d6;line-height:2;max-width:430px}.planner-card{background:#f6f9f1;color:var(--ink);padding:28px;border-radius:18px;display:flex;flex-direction:column;gap:13px}.planner-card .btn{margin-top:8px}.plan-result{white-space:pre-line;background:#e5eedc;padding:18px;border-radius:12px;font-size:12px;line-height:2;color:var(--forest)}.passport{background:#f4f6ee}.passport-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.balance{background:var(--forest);border-radius:20px;color:white;padding:35px;min-height:315px;display:flex;flex-direction:column}.balance>span:first-child{font-size:16px;font-weight:800}.balance>small{font-size:12px;margin-top:24px;color:#c7dfcc}.balance>strong{font-size:75px;line-height:1.2;color:var(--lime);margin:5px 0}.balance>span:nth-last-child(2){font-size:11px;letter-spacing:3px;color:#d1e8d2}.balance-line{border-top:1px solid #ffffff55;margin-top:auto;padding-top:18px;display:flex;justify-content:space-between;gap:10px;font-size:11px}.balance-line b{display:block;font-size:19px;margin-top:7px;color:var(--lime)}.passport-side{background:white;border:1px solid var(--line);border-radius:20px;padding:30px}.passport-side h3{font-size:24px;margin:0 0 10px}.passport-side>p{font-size:12px;color:var(--muted)}.challenge-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0}.challenge{background:#f0f4ec;border-radius:10px;padding:12px;font-size:12px;color:#9aab9b}.challenge.unlocked{background:#dcf7b7;color:var(--forest);font-weight:800}.challenge-progress>span{display:flex;justify-content:space-between;font-size:11px}.challenge-progress .meter{margin-bottom:0}.rewards-heading{display:flex;justify-content:space-between;gap:20px;align-items:center;margin:45px 0 20px}.rewards-heading h3{font-size:26px;margin:0}.rewards-heading p{font-size:12px;color:var(--muted)}.reward-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.reward-grid article{border-radius:18px;padding:25px;background:#fff;border:1px solid var(--line)}.reward-grid article:nth-child(2){background:#e2efd5}.reward-grid article>small{font-size:10px;color:#6b9675;letter-spacing:1px}.reward-emoji{font-size:42px;margin:20px 0}.reward-grid h4{font-size:21px;margin:0 0 10px}.reward-grid p{font-size:12px;color:var(--muted)}.reward-grid article>div:last-child{border-top:1px solid var(--line);padding-top:20px;margin-top:20px;display:flex;justify-content:space-between;align-items:center;gap:8px}.reward-grid strong{color:var(--forest)}.record-grid{display:grid;grid-template-columns:1fr 1fr;gap:17px;margin-top:24px}.record-box{background:white;border:1px solid var(--line);border-radius:17px;padding:25px;min-height:180px}.record-box h3{font-size:20px}.record-box>div{font-size:12px;line-height:2;color:#687d6c;max-height:220px;overflow:auto}.record-item{border-top:1px solid #e8ede4;padding:10px 0}.record-item button{background:#e4f0dc;color:var(--forest);border:0;border-radius:20px;padding:7px 12px;margin-left:10px;font-size:11px}.text-btn{border:0;background:transparent;color:#6a8d71;font-size:11px;text-decoration:underline;margin-top:15px;padding:0}.center{text-align:center;margin-top:30px}footer{background:var(--deep);color:white;text-align:center;padding:48px 20px}.footer-brand{font-size:20px}.footer-brand b{color:var(--lime)}footer p{font-size:13px;margin:13px}footer small{color:#b6cdb9;font-size:11px}.toast{position:fixed;z-index:50;bottom:25px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;transition:.25s;background:var(--deep);color:white;border:1px solid #a4c6a6;border-radius:25px;padding:14px 22px;font-size:13px;box-shadow:0 10px 30px #0004;max-width:90%;text-align:center}.toast.show{transform:translate(-50%,0);opacity:1}
+@media(max-width:1050px){.nav{gap:15px;flex-wrap:wrap}.nav nav{order:3;width:100%;justify-content:center}.tiles{grid-template-columns:repeat(2,1fr)}.hero-sticker{right:5%;width:170px;height:220px}.hero-sticker strong{font-size:33px;margin:23px 0}.hero-copy{width:75%}}
+@media(max-width:720px){.nav{padding:10px 4%;gap:8px}.nav nav{gap:12px}.nav nav a{font-size:11px}.nav-points{padding:8px 10px}.nav-points span{display:none}.hero{min-height:590px}.hero-copy{width:100%;padding:70px 6% 200px}.hero-sticker{top:auto;bottom:25px;right:10%;width:145px;height:160px;padding:13px}.hero-sticker strong{font-size:26px;margin:13px 0}.hero-sticker b{font-size:25px}.hero-sticker small{font-size:8px}.hero-mini{display:none}.section{padding:55px 5%}.intro,.ai-lab,.hunt,.fashion-body,.feature,.planner,.passport-grid,.record-grid{grid-template-columns:1fr}.intro{gap:5px}.section-number{font-size:55px}.tiles{padding-top:0;gap:10px}.tile{height:245px}.tile-copy{padding:13px}.tile-copy strong{font-size:18px}.tile-copy>span{font-size:10px}.tile-art{font-size:32px}.tile-art span{font-size:50px}.market-cards,.daily-cards,.reward-grid{grid-template-columns:1fr}.market-cards article{min-height:190px}.ai-lab{padding:18px;gap:12px}.ai-box{padding:20px}.quiz-options{grid-template-columns:1fr}.hunt{padding:20px}.fashion{padding:18px}.fashion-deco{font-size:45px}.fashion-gallery{min-height:330px;grid-template-columns:1fr 65px}.feature.reverse .feature-photo{order:0}.feature-photo{min-height:260px;height:300px}.feature-card{padding:24px}.form-grid{grid-template-columns:1fr}.daily-cards article{min-height:260px}.balance{min-height:280px}.rewards-heading{display:block}.reward-grid article>div:last-child{margin-top:15px}.section-heading h2{font-size:32px}}
+
+/* 永續人格Ｑ版角色與自由穿搭工作室 */
+.persona-showcase{margin:30px 0 24px;padding:26px;border-radius:28px;background:#f7f5eb;border:1px solid #e5e7d8}.persona-showcase-head h3{font-size:28px;margin:8px 0}.persona-showcase-head p{color:#667766}.persona-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:22px}.persona-mini{background:white;border-radius:20px;padding:10px 10px 16px;text-align:center;box-shadow:0 6px 16px #3153380b}.persona-mini img{display:block;width:100%;height:185px;object-fit:contain;border-radius:14px}.persona-mini strong{display:block;font-size:16px;margin:12px 0 5px}.persona-mini small{display:block;color:#738073;font-size:12px;line-height:1.6}.persona-reveal{display:flex;align-items:center;gap:16px;padding:12px;margin:12px 0;border-radius:15px;background:#f5f8ec;color:#294d32}.persona-reveal[hidden]{display:none}.persona-reveal img{width:94px;height:110px;object-fit:contain}.persona-reveal b{display:block}.persona-reveal small{display:block;margin-top:8px;line-height:1.7}
+.dressup-grid{display:grid;grid-template-columns:minmax(280px,.85fr) minmax(330px,1.15fr);gap:22px;margin-top:24px}.dressup-stage,.dressup-closet{background:#fffef9;border-radius:24px;padding:20px;border:1px solid #e5e8db}.stage-heading{font-weight:800;color:#345b39;text-align:center}.paper-doll{position:relative;width:min(100%,310px);aspect-ratio:260/430;margin:14px auto 0;background:radial-gradient(circle at 50% 43%,#fff 0,#eef4e8 65%,#dce8d6 100%);border-radius:24px;overflow:hidden;touch-action:pan-y}.doll-base{position:absolute;inset:0;width:100%;height:100%}.doll-layer{position:absolute;pointer-events:none}.doll-layer svg{width:100%;height:100%;filter:drop-shadow(1px 2px 1px #0002)}#layer-top{left:17%;top:45%;width:66%;height:28%;z-index:3}#layer-bottom{left:25%;top:61%;width:50%;height:33%;z-index:2}#layer-outer{left:12%;top:45%;width:76%;height:31%;z-index:4;opacity:.92}#layer-shoes{left:26%;top:87%;width:48%;height:12%;z-index:5}#layer-accessory{left:62%;top:58%;width:31%;height:24%;z-index:6}.doll-drop-hint{position:absolute;bottom:9px;left:0;right:0;text-align:center;color:#55705b;font-size:11px;pointer-events:none;z-index:7}.doll-controls{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:12px}.doll-controls button{border:0;background:#2b5b3b;color:white;padding:11px 15px;border-radius:24px;cursor:pointer}.doll-controls button:first-child{background:#e8eddf;color:#315c3b}.closet-header{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#31583a}.closet-header span{font-size:11px;color:#849082}.closet-tabs{display:flex;gap:6px;flex-wrap:wrap;margin:18px 0}.closet-tabs button{border:1px solid #dce6d6;background:#f7faf5;color:#4d6752;border-radius:18px;padding:9px 12px;cursor:pointer}.closet-tabs button.active{background:#376543;color:white}.closet-items{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.closet-item{border:2px solid #e7eadf;background:#f9f9f3;border-radius:16px;padding:10px 6px;cursor:grab;min-height:155px}.closet-item.chosen{border-color:#78a55a;background:#eff7e8}.closet-item svg{display:block;width:100%;height:110px}.closet-item span{font-size:12px;display:block;text-align:center;color:#3f5844}.style-result{background:#e9f1df;border-radius:16px;margin-top:18px;padding:16px;color:#34543a;line-height:1.9;font-size:13px}.style-result p{margin:6px 0}.style-result small{font-size:11px}@media(max-width:850px){.persona-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.dressup-grid{grid-template-columns:1fr}}@media(max-width:450px){.persona-mini img{height:140px}.closet-items{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+
+/* 永續人格：四位不同造型的角色 */
+.persona-mini{overflow:hidden}
+.persona-mini img{object-fit:contain;object-position:center;background:#fff9ed;border-radius:15px}
+.persona-mini:nth-child(1){background:#fae5eb}
+.persona-mini:nth-child(2){background:#e4f0e4}
+.persona-mini:nth-child(3){background:#fff0cc}
+.persona-mini:nth-child(4){background:#e3efdb}
+.persona-reveal img{object-fit:contain;object-position:center;background:#fff8ea;border-radius:12px}
+
+/* AI 二手穿搭配對 */
+.match-lab{margin-top:28px;padding:34px;background:#fffdf5;border-radius:22px;border:1px solid #dfe9d9}
+.match-intro h3{font-size:clamp(27px,3vw,40px);margin:12px 0}
+.match-intro h3 i{font-style:normal;color:#739966}
+.match-intro p{font-size:13px;color:#607766;line-height:1.9}
+.match-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:22px;margin-top:22px}
+.match-form{background:#e9f0e3;border-radius:18px;padding:26px;display:flex;flex-direction:column;gap:15px}
+.match-form label{font-size:12px;font-weight:700;color:#385d45;display:flex;flex-direction:column;gap:9px}
+.match-form select{width:100%;border:1px solid #cddfcb;background:white;border-radius:10px;padding:13px;color:#264631}
+.match-form .btn{margin-top:8px}
+.match-result{display:grid;grid-template-columns:.9fr 1.1fr;gap:17px;background:#f3f4eb;border-radius:18px;padding:17px;align-items:center}
+.match-photo{height:320px;overflow:hidden;border-radius:13px;background:#e5e9df}
+.match-photo img{height:100%;width:100%;object-fit:cover;object-position:top}
+.match-advice{padding:8px}
+.match-advice span{color:#6d946e;font-size:11px;letter-spacing:1px}
+.match-advice h4{font-size:22px;margin:12px 0;color:#244b35}
+.match-advice p{font-size:12px;line-height:1.9;color:#58715e}
+.match-advice small{font-size:10px;color:#849484}
+@media(max-width:900px){.match-layout,.match-result{grid-template-columns:1fr}}
+
+/* 十組穿搭圖庫與風格場合選擇 */
+.lookbook-head{margin:30px 0 16px;display:flex;align-items:baseline;gap:20px;flex-wrap:wrap}
+.lookbook-head h3{margin:0;font-size:23px;color:#244b35}
+.lookbook-head p{margin:0;font-size:12px;color:#78907a}
+.lookbook-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:13px}
+.look-card{border:2px solid transparent;background:#f3f4ec;border-radius:15px;padding:7px;cursor:pointer;text-align:center;color:#31563b;transition:transform .2s,border-color .2s}
+.look-card:hover{transform:translateY(-4px)}
+.look-card.selected{border-color:#679456;background:#e6f0dc}
+.look-card img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center top;border-radius:10px;display:block}
+.look-card span{display:block;font-size:12px;font-weight:700;padding:10px 0 5px}
+.match-photo{height:400px}.match-photo img{object-fit:contain;background:#eee9e3}
+@media(max-width:800px){.lookbook-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:480px){.lookbook-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* ===== 綠活護照質感升級：紙張、燙金、印章、旅程 ===== */
+:root{--forest:#183e31;--deep:#102b24;--lime:#d9eb99;--cream:#f7f4e9;--sage:#e7eddf;--ink:#24382e;--muted:#788477;--line:#e4dfcf;--gold:#b08a52}
+body{background:radial-gradient(circle at 10% 4%,#fffaf0 0,transparent 29%),radial-gradient(circle at 90% 42%,#eaf0e2 0,transparent 35%),#f7f4e9}
+.nav{background:#fffcf5ed;border-bottom:1px solid #dcd5bf;box-shadow:0 7px 30px #1e3d2b09}
+.logo-mark{border:1px solid #d2bd83;box-shadow:inset 0 0 0 3px #ffffff24}
+.nav-points{box-shadow:0 4px 14px #183e3117}
+.hero{position:relative}
+.hero-copy h1{letter-spacing:.015em;text-shadow:0 4px 30px #12281b50}
+.hero-copy .kicker{border:1px solid #ffffff70;padding:9px 14px;border-radius:40px;display:inline-block;backdrop-filter:blur(10px)}
+.section-heading h2{letter-spacing:-.035em}
+.section-heading .kicker,.kicker{letter-spacing:.16em}
+.section-number{font-family:Georgia,serif;font-style:italic;opacity:.38}
+.section{position:relative}
+.section-heading{border-bottom:1px solid #d8d4c3;padding-bottom:25px;margin-bottom:35px}
+.section-heading h2 i{color:#76927b}
+.btn{transition:transform .2s,box-shadow .2s,background .2s;box-shadow:0 4px 0 #17342616}
+.btn:hover:not(:disabled){transform:translateY(-3px);box-shadow:0 10px 25px #163c3029}
+.btn:active:not(:disabled){transform:translateY(1px);box-shadow:none}
+button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #b5d473;outline-offset:3px}
+.market-cards article,.daily-cards article,.reward-grid article,.feature-card,.persona-mini,.passport-side,.record-box{box-shadow:0 16px 42px #2443300b;border:1px solid #e4dfcf;transition:transform .25s,box-shadow .25s}
+.market-cards article:hover,.daily-cards article:hover,.persona-mini:hover,.reward-grid article:hover{transform:translateY(-5px);box-shadow:0 18px 36px #24433018}
+.persona-mini img{border-radius:20px;background:#fff8e8}
+.persona-mini{border-radius:24px;overflow:hidden}
+.quiz-options button{transition:transform .2s,background .2s,border-color .2s}
+.quiz-options button:hover{transform:translateY(-3px)}
+/* 橫向旅程導航：護照的四個目的地 */
+.passport-strip{margin:0 auto;padding:20px 5.5%;display:flex;align-items:center;justify-content:space-between;gap:22px;background:#e9e9d8;border-top:1px solid #d6d2b9;border-bottom:1px solid #d6d2b9}
+.strip-title{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.strip-title .strip-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:50%;background:#1d4837;color:#f1db9c;font-size:23px}
+.strip-title b{display:block;color:#254935;font-size:11px;letter-spacing:.14em}
+.strip-title small{display:block;color:#6b806e;font-size:11px;margin-top:4px}
+.strip-stops{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap}
+.strip-stops a{display:flex;align-items:center;gap:8px;font-size:12px;color:#395644;padding:8px 10px;border-radius:40px;transition:background .2s}
+.strip-stops a:hover{background:#ffffffad}
+.strip-stops a span{width:29px;height:29px;display:grid;place-items:center;border:1px dashed #9fa98e;border-radius:50%;font-family:Georgia,serif;color:#8d815d}
+.strip-link{font-size:12px;color:#234b35;font-weight:800;white-space:nowrap}
+/* 穿搭建議：雙層護照紙卡與好操作的快速標籤 */
+.match-lab{background:#fffcf5;border:1px solid #dcd2b8;box-shadow:0 20px 60px #30432b12;border-radius:28px;position:relative;overflow:hidden}
+.match-lab:before{content:"";position:absolute;top:0;left:0;right:0;height:7px;background:repeating-linear-gradient(90deg,#31563d 0 30px,#b9a274 30px 42px,#f7f4e9 42px 55px)}
+.match-intro h3{font-family:Georgia,"微軟正黑體",serif}
+.passport-caption{display:flex;align-items:center;gap:12px;margin-top:23px;padding:12px 17px;border-top:1px dashed #c4b797;border-bottom:1px dashed #c4b797;font-size:12px;font-weight:800;color:#355540}
+.passport-caption span{color:#a7844f;font-size:20px}
+.passport-caption small{font-size:11px;color:#8b8e7d;font-weight:400;margin-left:auto}
+.match-form{background:#eaeede;border:1px solid #d8ddc8}
+.match-form select{border-color:#c6cbb7}
+.choice-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:-4px}
+.choice-chip{border:1px solid #c7d3bb;border-radius:24px;background:#fffdf8;color:#48614b;font-size:11px;padding:9px 12px;transition:all .2s}
+.choice-chip:hover{border-color:#5c845c;transform:translateY(-2px)}
+.choice-chip.active{background:#28523b;color:white;border-color:#28523b;box-shadow:0 5px 12px #28523b22}
+.match-photo{box-shadow:0 9px 22px #2d3b281b}
+.lookbook-grid button,.lookbook-grid article{transition:transform .2s,box-shadow .2s}
+.lookbook-grid button:hover,.lookbook-grid article:hover{transform:translateY(-4px);box-shadow:0 12px 25px #25402a24}
+/* 集章冊：有印章感的四張卡片 */
+.stamp-intro{background:#fffdf5;border:1px solid #d9cfb6;border-bottom:0;padding:27px 32px 8px;border-radius:22px 22px 0 0}
+.stamp-intro>span{font-size:11px;letter-spacing:.17em;color:#a48b60;font-weight:800}
+.stamp-intro h3{font-family:Georgia,"微軟正黑體",serif;font-size:26px;color:#254b37;margin:12px 0 7px}
+.stamp-intro p{font-size:12px;line-height:1.8;color:#758373}
+.stamp-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;background:#fffdf5;border:1px solid #d9cfb6;border-top:0;padding:14px 30px 20px}
+.stamp-grid button{min-height:156px;background:#f8f6eb;border:1px dashed #b9b59d;border-radius:15px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:#59715c;transition:transform .2s,background .2s}
+.stamp-grid button:hover{transform:rotate(-2deg) scale(1.03);background:#edf2e5}
+.stamp-symbol{width:70px;height:70px;border:3px double #9da995;border-radius:50%;display:grid;place-items:center;font-size:36px;transform:rotate(-13deg);opacity:.45;filter:grayscale(1)}
+.stamp-grid b{font-size:13px}.stamp-grid small{font-size:11px;color:#899587}
+.stamp-grid button.collected{background:#eaf1df;border:1px solid #96b18a;color:#2b6843}
+.stamp-grid button.collected .stamp-symbol{opacity:1;filter:none;border-color:#3f8055;box-shadow:inset 0 0 0 4px #eaf1df,inset 0 0 0 6px #7aa17d}
+.stamp-grid button.collected small{color:#34804a;font-weight:700}
+.stamp-count{background:#fffdf5;border:1px solid #d9cfb6;border-top:1px dashed #d5c9ac;border-radius:0 0 22px 22px;padding:12px 30px 18px;margin-bottom:26px;text-align:right;font-size:12px;color:#466c4e;font-weight:800}
+.balance{position:relative;overflow:hidden;border:1px solid #a69c70}
+.balance:after{content:"✳";position:absolute;right:-40px;bottom:-70px;font-size:250px;color:#ffffff0b;pointer-events:none}
+/* 浮動小護照，讓綠點隨時可見 */
+.floating-passport{position:fixed;bottom:20px;right:22px;z-index:19;display:flex;align-items:center;gap:11px;background:#1b4936;color:#fff9df;border:1px solid #c6b77b;border-radius:15px 15px 15px 5px;padding:12px 18px;box-shadow:0 12px 35px #1d382a55;transform:rotate(-2deg);font-size:12px;transition:transform .2s}
+.floating-passport:hover{transform:rotate(0) translateY(-4px)}
+.floating-passport>span:first-child{font-size:24px;color:#f2d895}
+.floating-passport b{color:#e2eea4}
+@media(max-width:1050px){.passport-strip{flex-wrap:wrap}.strip-stops{order:3;width:100%}}
+@media(max-width:700px){.passport-strip{padding:16px 5%}.strip-stops{justify-content:flex-start;gap:4px}.strip-stops a{font-size:11px;padding:5px}.stamp-grid{grid-template-columns:repeat(2,1fr);padding:12px}.stamp-intro{padding:22px 20px 5px}.stamp-grid button{min-height:125px}.stamp-symbol{width:55px;height:55px;font-size:28px}.passport-caption{flex-wrap:wrap}.passport-caption small{margin-left:0}.floating-passport{bottom:12px;right:12px;padding:9px 12px;font-size:11px}}
+
+/* ================================
+   AI 隨行助手旗艦版：活潑、有質感的護照體驗
+   ================================ */
+:root{--inkgreen:#153f30;--golden:#d9b76f;--pop:#d7f06f}
+.hero{min-height:630px}
+.hero-copy{max-width:750px}
+.hero-copy h1{font-size:clamp(43px,5.8vw,83px);line-height:1.23;letter-spacing:-.04em}
+.hero-copy h1 em{color:#e4f5a5}
+.hero-sticker{filter:drop-shadow(0 15px 24px #10291b44)}
+.nav a{transition:color .2s,transform .2s}.nav a:hover{transform:translateY(-2px)}
+.assistant-zone{padding:74px max(5.5%,calc((100% - 1380px)/2));background:radial-gradient(circle at 80% 5%,#f3edc5 0,transparent 37%),radial-gradient(circle at 12% 90%,#e0efce 0,transparent 45%),#fbf9ef;position:relative;overflow:hidden}
+.assistant-zone:before{content:'✳';position:absolute;top:15px;right:3%;font-size:190px;color:#c9dcb13a;pointer-events:none}
+.assistant-top{display:flex;justify-content:space-between;gap:28px;align-items:center;position:relative;z-index:1}
+.assistant-top h2{font-size:clamp(32px,4vw,57px);line-height:1.35;letter-spacing:-.035em;color:#214733;margin:15px 0}
+.assistant-top h2 em{font-style:normal;color:#75923b}
+.assistant-top p{max-width:600px;font-size:14px;line-height:1.9;color:#647864}
+.assistant-character{display:flex;flex-direction:column;align-items:center;transform:rotate(4deg);flex-shrink:0}
+.assistant-character img{width:180px;height:180px;object-fit:cover;object-position:top;border-radius:50%;border:7px solid white;background:#e6eed6;box-shadow:0 15px 32px #20452e1c}
+.assistant-character span{background:#2d6144;color:white;padding:8px 16px;border-radius:30px;font-size:12px;font-weight:800;margin-top:-8px;position:relative}
+.assistant-board{position:relative;z-index:1;background:white;border:1px solid #e2d9c1;border-radius:28px;box-shadow:0 25px 55px #2d53301b;padding:28px 32px;display:grid;gap:22px;margin-top:25px}
+.assistant-question strong{display:block;font-size:15px;color:#244b35;margin-bottom:13px}
+.assistant-choices{display:flex;flex-wrap:wrap;gap:10px}
+.assistant-choices button{border:1.5px solid #d6e0c9;background:#f9fbf4;border-radius:17px;padding:13px 19px;color:#345641;font-size:13px;font-weight:800;transition:transform .2s,box-shadow .2s,background .2s;cursor:pointer}
+.assistant-choices button:hover{transform:translateY(-3px);box-shadow:0 9px 16px #315e2c19}
+.assistant-choices button.active{background:#254e39;color:#fff;border-color:#254e39;box-shadow:0 6px 0 #d3e5a2}
+.assistant-go{width:100%;border:0;background:linear-gradient(110deg,#d9f36d,#b9e57a);color:#1b4c32;padding:19px 24px;border-radius:17px;font-size:17px;font-weight:900;cursor:pointer;box-shadow:0 7px 0 #8aaa51;transition:transform .2s,box-shadow .2s}
+.assistant-go:hover{transform:translateY(-3px);box-shadow:0 10px 0 #8aaa51}
+.assistant-go:active{transform:translateY(5px);box-shadow:0 2px 0 #8aaa51}
+.assistant-go span{float:right}
+.assistant-output{margin-top:18px;border-radius:23px;background:#24513b;color:white;display:flex;align-items:flex-start;gap:18px;padding:24px 30px;box-shadow:0 15px 35px #1b3b2a24}
+.assistant-output-icon{background:#d7ef8b;color:#28543c;border-radius:17px;width:50px;height:50px;flex-shrink:0;display:grid;place-items:center;font-size:26px}
+.assistant-output small{color:#d7ee9d;letter-spacing:.1em;font-weight:800}
+.assistant-output h3{font-size:22px;margin:7px 0 10px;color:white}
+.assistant-output p{font-size:13px;line-height:2;white-space:pre-line;color:#e3eddd;margin:0}
+.assistant-output a{display:inline-flex;margin-top:15px;background:#d9ef9c;color:#23452f;padding:11px 18px;border-radius:30px;font-size:12px;font-weight:900;text-decoration:none}
+.assistant-shortcuts{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:20px}
+.assistant-shortcuts span{font-size:12px;font-weight:800;color:#58715b;margin-right:5px}
+.assistant-shortcuts a{background:#fff;border:1px solid #dce3d3;border-radius:40px;padding:11px 16px;font-size:12px;color:#315941;font-weight:800;transition:transform .2s}
+.assistant-shortcuts a:hover{transform:translateY(-3px);background:#e6f3d2}
+#passport{scroll-margin-top:95px;background:linear-gradient(145deg,#f1eedf,#f8f6eb 50%,#e8eedc);border-top:1px solid #ded5b8;border-bottom:1px solid #ded5b8}
+#passport>.section-heading{margin-bottom:18px}
+#passport .stamp-intro{background:#fffef9}
+#passport .stamp-grid,#passport .stamp-count{background:#fffef9}
+#passport .passport-grid{margin-top:25px}
+#passport .balance{box-shadow:0 20px 35px #183e2c22}
+#passport .stamp-grid button{transition:transform .2s,background .2s,box-shadow .2s}
+#passport .stamp-grid button:hover{transform:rotate(-4deg) scale(1.045);box-shadow:0 12px 22px #1b493619}
+#passport .stamp-grid button.collected{animation:stampAppear .45s ease-out}
+@keyframes stampAppear{0%{transform:scale(1.15) rotate(10deg)}100%{transform:scale(1) rotate(0)}}
+.btn,.choice-chip,.reward-grid button{font-weight:800}
+.feature-card,.match-lab,.ai-lab,.daily-cards article,.hunt{border-radius:25px}
+@media(max-width:850px){.assistant-zone{padding:50px 6%}.assistant-character img{width:115px;height:115px}.assistant-top h2{font-size:33px}.assistant-board{padding:22px}.assistant-choices button{padding:11px 13px;font-size:12px}}
+@media(max-width:550px){.assistant-top{align-items:flex-start}.assistant-character{display:none}.assistant-output{padding:20px}.assistant-output h3{font-size:18px}.assistant-go{font-size:14px}.assistant-shortcuts a{font-size:11px}.hero{min-height:520px}}
+@media(prefers-reduced-motion:reduce){.assistant-choices button,.assistant-go,.assistant-shortcuts a{transition:none}#passport .stamp-grid button.collected{animation:none}}
+
+/* 首頁標題：桌面單行呈現，細緻襯線字與金綠漸層 */
+.hero-copy{width:min(1220px,94%);padding-right:0}
+.hero .hero-headline{font-family:"Noto Serif TC","思源宋體","新細明體",serif;font-size:clamp(25px,3.6vw,56px);font-weight:800;letter-spacing:.015em;line-height:1.3;white-space:nowrap;color:#f9f5df;text-shadow:0 4px 20px #08281f88;margin:24px 0 26px}
+.hero .hero-headline::first-letter{color:#e8d5a1}
+.hero-copy>p{max-width:690px}
+.hero-sticker{right:3%;top:43%;width:165px;height:190px;padding:17px;opacity:.93}
+.hero-sticker strong{font-size:29px;margin:14px 0}
+@media(max-width:900px){.hero .hero-headline{font-size:clamp(21px,4.2vw,37px)}.hero-sticker{display:none}}
+@media(max-width:570px){.hero .hero-headline{font-size:clamp(16px,4.45vw,24px);letter-spacing:-.04em}.hero-copy{width:100%;padding:65px 5%}}
+/* 圖像推薦卡：像護照旅行印章的探索卡，點選即可前往功能 */
+.assistant-output.visual-output{display:block;background:linear-gradient(145deg,#1e4936,#315d44);padding:26px}
+.journey-intro h3{margin:0 0 6px;font-size:24px;color:#fff5d7}
+.journey-intro p{color:#cce8ce;font-size:12px;margin:0 0 18px}
+.journey-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+.journey-card{display:block;overflow:hidden;background:#fffdf5;color:#284a34;border-radius:17px;text-decoration:none;box-shadow:0 8px 20px #0b271d20;transition:transform .2s,box-shadow .2s}
+.journey-card:hover{transform:translateY(-6px) rotate(-1deg);box-shadow:0 16px 28px #071d1740}
+.journey-picture{height:165px;position:relative;overflow:hidden;background:#e4ebda}
+.journey-picture img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s}
+.journey-card:hover img{transform:scale(1.06)}
+.journey-step{position:absolute;top:10px;left:10px;border-radius:30px;background:#f6f0d7;color:#2a5437;padding:6px 11px;font-size:12px;font-weight:900;box-shadow:0 3px 10px #15332322}
+.journey-info{display:flex;flex-direction:column;gap:7px;padding:15px}
+.journey-info strong{font-size:15px;line-height:1.4}
+.journey-info small{font-size:11px;color:#66816b;line-height:1.5}
+.journey-info span{font-size:11px;font-weight:900;color:#3e7549;margin-top:5px}
+.journey-note{color:#cce4cd;font-size:11px;margin:16px 0 0}
+.plan-result.visual-plan{white-space:normal;background:#eaf1dd;padding:16px}
+.journey-plan-label{font-size:14px;font-weight:900;margin-bottom:14px;color:#28543a}
+.visual-plan .journey-grid{grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+.visual-plan .journey-picture{height:125px}
+.visual-plan .journey-info{padding:12px}
+.visual-plan .journey-info strong{font-size:13px}
+.visual-plan .journey-note{color:#6d826c}
+@media(max-width:560px){.journey-grid{grid-template-columns:1fr 1fr;gap:9px}.journey-picture{height:120px}.journey-info{padding:11px}.journey-info strong{font-size:12px}.journey-intro h3{font-size:20px}.assistant-output.visual-output{padding:16px}}
+
+/* 最後一頁：真正的護照旅程回顧，不再重複推薦 */
+.green-finale{background:linear-gradient(145deg,#183d2b,#285b3e 68%,#3a7450);color:#fff;padding-top:95px;padding-bottom:95px}
+.finale-heading{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:32px}
+.finale-heading h2{font-size:clamp(35px,5vw,65px);line-height:1.24;margin:15px 0;color:#fff}
+.finale-heading h2 i{font-style:normal;color:#d6ee9e}
+.finale-heading p{max-width:520px;line-height:1.9;color:#d5e5d5;font-size:14px}
+.finale-illustration{width:180px;height:210px;flex-shrink:0;border:2px solid #e3ce95;border-radius:14px;background:#f6e7bd;color:#27573c;transform:rotate(9deg);display:flex;align-items:center;justify-content:space-around;flex-direction:column;font-size:32px;box-shadow:14px 16px 0 #0e2d2033}
+.finale-illustration span{text-align:center;font-family:Georgia,serif;font-size:23px;line-height:1.2;font-weight:900}
+.finale-card{max-width:1100px;margin:auto;padding:32px;border-radius:26px;background:#fffcf1;color:#28523a;box-shadow:0 24px 70px #0a2b2044}
+.finale-card-head{display:flex;justify-content:space-between;gap:16px;align-items:start}
+.finale-card-head h3{font-size:27px;margin:8px 0}
+.finale-card-head p{font-size:13px;color:#6d806f}
+.finale-date{background:#e9efdd;padding:10px 14px;border-radius:30px;font-size:12px;white-space:nowrap}
+.finale-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:26px 0}
+.finale-stats>div{border:1px solid #e2e9d8;background:#f2f5e9;border-radius:18px;padding:20px;display:flex;flex-direction:column;gap:6px}
+.finale-stats span{font-size:26px;color:#6e9566}
+.finale-stats strong{font-size:clamp(25px,3vw,40px);font-family:Georgia,serif}
+.finale-stats small{font-size:12px;color:#66816d}
+.finale-progress-head{display:flex;justify-content:space-between;gap:12px;font-size:13px}
+.finale-progress-head span{color:#6d9567}
+.finale-progress{height:11px;background:#e5ebd9;border-radius:30px;overflow:hidden;margin:12px 0 24px}
+.finale-progress>div{height:100%;width:0;background:linear-gradient(90deg,#69a078,#b7cf71);transition:width .3s}
+.finale-stamps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.finale-stamp{min-height:100px;border:2px dashed #cbd9c5;border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:#a5b4a0;background:#f8f9f4}
+.finale-stamp.earned{border:2px solid #87ad7b;color:#2b6544;background:#e8f2df;transform:rotate(-2deg)}
+.finale-stamp span{font-size:35px}.finale-stamp small{font-size:12px;font-weight:800}
+.finale-latest{margin:22px 0;padding:19px;background:#f0f4e8;border-radius:14px}
+.finale-latest strong{font-size:13px}.finale-latest p{font-size:12px;color:#637e67;margin:9px 0 0;line-height:1.8}
+.finale-actions{display:flex;flex-wrap:wrap;gap:12px}
+.finale-outline{background:transparent;border:1px solid #759a79;color:#28523a}
+.green-finale .fine{color:#70836d;margin-top:16px;font-size:11px}
+@media(max-width:620px){.finale-heading{align-items:start}.finale-illustration{display:none}.finale-card{padding:20px}.finale-stats{gap:7px}.finale-stats>div{padding:13px}.finale-stats small{font-size:10px}.finale-stamps{gap:6px}.finale-stamp{min-height:80px}.finale-stamp span{font-size:25px}}

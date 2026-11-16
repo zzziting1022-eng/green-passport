@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>一本綠活護照，裕約永續未來｜裕隆城</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#home"><span class="logo-mark">✳</span><span>裕隆城 <b>綠活護照</b><small>永續生活實驗室</small></span></a>
+  <nav aria-label="主要導覽"><a href="#assistant">✦ AI 小助手</a><a href="#market">永續市集</a><a href="#charge">智慧充電</a><a href="#shuttle">電動接駁</a><a href="#daily">日常綠活</a><a href="#passport">我的護照</a></nav>
+  <a class="nav-points" href="#passport" title="打開我的綠活護照"><span>✦ 我的綠點</span><b id="topPoints">0</b></a>
+</header>
+<main>
+<section class="hero" id="home">
+  <img class="hero-photo" src="./裕隆城入口.jpg" alt="裕隆城入口實景">
+  <div class="hero-shade"></div>
+  <div class="hero-copy"><span class="kicker light">YES! LIFE × 綠色生活新提案</span><h1 class="hero-headline">一本綠活護照，裕約永續未來</h1><p>你的裕隆城 AI 綠活小助手已上線！從市集尋寶、個人化穿搭、充電與接駁到日常綠活，幫你找到今天最適合的體驗。</p><div class="hero-actions"><a class="btn lime" href="#assistant">讓小助手帶我玩 <span>✦</span></a><a class="btn glass" href="#passport">查看我的綠點 ↗</a></div><div class="hero-mini">✳ 先問小助手　→　解鎖任務　→　收集護照印記　→　兌換驚喜</div></div>
+  <div class="hero-sticker"><span>GREEN</span><strong>PASS<br>PORT</strong><small>裕隆城綠活通行證</small><b>✳</b></div>
+</section>
+<section class="assistant-zone" id="assistant" aria-label="AI 綠活隨行助手">
+ <div class="assistant-top"><div><span class="kicker">✦ YOUR GREEN SIDEKICK</span><h2>嗨！今天來裕隆城，<br><em>我帶你玩點不一樣的。</em></h2><p>我是你的綠活小助手。告訴我今天的心情和時間，我就幫你安排適合的永續體驗！</p></div><div class="assistant-character"><img src="./人格角色4.png" alt="綠活小助手Ｑ版人物"><span>✦ 在線陪你探索</span></div></div>
+ <div class="assistant-board"><div class="assistant-question"><strong>① 今天你想玩什麼？</strong><div class="assistant-choices" id="assistantInterests"><button type="button" class="active" data-interest="市集尋寶">🎁 市集尋寶</button><button type="button" data-interest="時尚穿搭">👗 時尚穿搭</button><button type="button" data-interest="手作體驗">✂️ 手作體驗</button><button type="button" data-interest="綠色移動">🚌 綠色移動</button><button type="button" data-interest="生活集點">☕ 生活集點</button></div></div><div class="assistant-question"><strong>② 你有多少時間？</strong><div class="assistant-choices" id="assistantTimes"><button type="button" data-time="30分鐘">⏱ 30 分鐘</button><button type="button" class="active" data-time="1小時">🕐 1 小時</button><button type="button" data-time="2小時以上">🌞 2 小時以上</button></div></div><button type="button" class="assistant-go" id="assistantGo">✨ 幫我安排今日綠活冒險 <span>↗</span></button></div>
+ <div class="assistant-output" id="assistantOutput" aria-live="polite"><div class="assistant-output-icon">✦</div><div><small>你的專屬探索卡</small><h3>小助手準備好了！</h3><p>選好興趣和時間，就能收到有圖片的活動推薦卡。</p></div></div>
+ <div class="assistant-shortcuts"><span>我還可以幫你</span><a href="#ai">🧩 測我的永續人格 ↗</a><a href="#fashionStudio">👕 推薦二手穿搭 ↗</a><a href="#charge">⚡ 算充電綠點 ↗</a><a href="#passport">🎟 查看我的票券 ↗</a></div>
+</section>
+<section class="section passport" id="passport"><div class="section-heading"><div><span class="kicker">✦ MY GREEN PASSPORT / 隨身護照</span><h2>我的綠點護照，<br><i>我的綠活成就。</i></h2><p>查看點數、解鎖徽章、兌換獎勵，記錄自己的永續生活。</p></div><span class="section-number">✳</span></div><div class="stamp-intro"><span>✧ PASSPORT STAMP COLLECTION</span><h3>我的護照印記，正在等你解鎖！</h3><p>點一下印章就能前往不同體驗；完成示範任務後，這裡會亮起你的專屬印記。</p></div>
+<div class="stamp-grid" id="stampGrid" aria-label="永續護照集章冊">
+<button type="button" data-stamp="market" data-target="market"><span class="stamp-symbol">✿</span><b>永續市集</b><small>等待探索</small></button>
+<button type="button" data-stamp="charge" data-target="charge"><span class="stamp-symbol">ϟ</span><b>智慧充電</b><small>等待探索</small></button>
+<button type="button" data-stamp="shuttle" data-target="shuttle"><span class="stamp-symbol">↗</span><b>綠色接駁</b><small>等待探索</small></button>
+<button type="button" data-stamp="daily" data-target="daily"><span class="stamp-symbol">♻</span><b>日常綠活</b><small>等待探索</small></button>
+</div><div class="stamp-count" id="stampCount" aria-live="polite">已收集 0 / 4 枚護照印章</div>
+<div class="passport-grid"><div class="balance"><span>✳ 我的綠點護照</span><small>目前可用綠點</small><strong id="walletPoints">0</strong><span>GREEN POINTS</span><div class="balance-line"><div>累積獲得 <b id="earnedPoints">0</b></div><div>已兌換 <b id="spentPoints">0</b></div><div>行動次數 <b id="actionCount">0</b></div></div></div><div class="passport-side"><h3>✦ 我的綠活挑戰卡</h3><p>完成不同類型任務，解鎖自己的永續成就。</p><div class="challenge-grid" id="challengeBadges"></div><div class="challenge-progress"><span>已解鎖成就 <b id="badgeCount">0 / 4</b></span><div class="meter"><span id="badgeBar"></span></div></div></div></div><div class="rewards-heading"><h3>用綠點，換一點生活驚喜。</h3><p>試辦換算：150 點約等於 1 元折抵價值</p></div><div class="reward-grid"><article><small>FOOD REWARD</small><div class="reward-emoji">🍽</div><h4>餐飲折抵券</h4><p>指定合作餐飲折抵 10 元</p><div><strong>1,500 點</strong><button class="btn dark" data-redeem="1500" data-name="餐飲折抵券">🎟 換一張驚喜券</button></div></article><article><small>MARKET REWARD</small><div class="reward-emoji">🛍</div><h4>市集折抵券</h4><p>指定市集攤位折抵 20 元</p><div><strong>3,000 點</strong><button class="btn dark" data-redeem="3000" data-name="市集折抵券">🎟 換一張驚喜券</button></div></article><article><small>BRAND REWARD</small><div class="reward-emoji">🎁</div><h4>品牌優惠券</h4><p>指定合作品牌折抵 50 元</p><div><strong>7,500 點</strong><button class="btn dark" data-redeem="7500" data-name="品牌優惠券">🎟 換一張驚喜券</button></div></article></div><div class="record-grid"><div class="record-box"><h3>我的電子票券匣</h3><div id="ticketList">尚無票券，完成任務累積綠點吧。</div></div><div class="record-box"><h3>我的綠活紀錄</h3><div id="historyList">尚無行動紀錄。</div><button class="text-btn" id="resetDemo">重新開始示範</button></div></div><p class="fine center">本網站為課程提案互動示範，非裕隆城官方會員服務。綠點、搭乘、核銷及驗證皆為模擬；實際服務須經合作及系統串接。個人紀錄僅儲存在本機瀏覽器，未上傳伺服器。</p></section>
+<section class="passport-strip" aria-label="我的綠活旅程">
+ <div class="strip-title"><span class="strip-icon">✈</span><div><b>GREEN JOURNEY</b><small>你的綠活旅程，從這裡啟程</small></div></div>
+ <div class="strip-stops"><a href="#market"><span>01</span>市集探索</a><a href="#charge"><span>02</span>智慧充電</a><a href="#shuttle"><span>03</span>綠色接駁</a><a href="#daily"><span>04</span>日常綠活</a></div>
+ <a class="strip-link" href="#passport">打開我的護照 ↗</a>
+</section>
+<section class="ticker" aria-label="永續行動提示"><span>✳ 每個選擇都算數</span><span>♻ 讓舊物有新故事</span><span>✦ 永續也可以很好玩</span><span>↗ 一起移動得更綠</span></section>
+<section class="section intro" id="explore"><div><span class="kicker">EXPLORE YOUR GREEN LIFE</span><h2>從這裡開始，<br><i>找到你的綠色日常。</i></h2></div><p>不必一次改變所有習慣。選擇你感興趣的體驗，參加任務、累積綠點，讓裕隆城成為每次都值得探索的永續生活場域。</p></section>
+<section class="section tiles" aria-label="探索永續服務">
+  <a href="#market" class="tile tile-market"><img src="./裕隆城外觀.jpg" alt="裕隆城建築外觀"><span class="tile-shade"></span><span class="tile-copy"><small>01 / 循環探索</small><strong>永續奇遇市集</strong><span>人格測驗・專屬尋寶・穿搭配對　↗</span></span></a>
+  <a href="#charge" class="tile"><img src="./充電站.jpg" alt="裕隆城充電站實景"><span class="tile-shade"></span><span class="tile-copy"><small>02 / 智慧能源</small><strong>電動車充電</strong><span>尖離峰綠點試算　↗</span></span></a>
+  <a href="#shuttle" class="tile"><img src="./接駁電車示意.png" alt="電動接駁車概念示意圖片"><span class="tile-shade"></span><span class="tile-copy"><small>03 / 綠色移動</small><strong>電動接駁車</strong><span>捷運轉乘・搭乘集點　↗</span></span></a>
+  <a href="#daily" class="tile tile-daily"><div class="tile-art">☕ <span>♻</span> ✿</div><span class="tile-copy"><small>04 / 生活實踐</small><strong>日常永續行動</strong><span>環保杯・舊衣回收・循環杯　↗</span></span></a>
+</section>
+<section class="section market" id="market">
+  <div class="section-heading"><div><span class="kicker">01 / GREEN DISCOVERY</span><h2>永續奇遇市集<span class="dot">✳</span></h2><p>把循環生活變成一場有驚喜的探索。</p></div><span class="section-number">01</span></div>
+  <div class="market-cards"><article><div class="market-symbol">✳</div><small>驚喜交換</small><h3>永續盲盒</h3><p>帶來狀況良好的閒置物品，經現場確認後交換一份未知的驚喜。</p></article><article><div class="market-symbol">♧</div><small>循環時尚</small><h3>二手衣穿搭</h3><p>選購二手衣、完成穿搭伸展台拍照，製作你的專屬風格小卡。</p></article><article><div class="market-symbol">✿</div><small>創意實踐</small><h3>永續手作</h3><p>利用回收材料參與手作體驗，讓資源循環變成親手完成的作品。</p></article></div>
+  <div class="persona-showcase"><div class="persona-showcase-head"><span class="kicker">GREEN PERSONALITY CLUB</span><h3>四種永續人格，四種綠色冒險</h3><p>像人格測驗一樣找到你的角色，解鎖專屬市集任務。</p></div><div class="persona-cards"><article class="persona-mini"><img src="./人格角色1.png" alt="循環時尚家Ｑ版角色"><strong>循環時尚家</strong><small>透過穿搭實踐永續</small></article><article class="persona-mini"><img src="./人格角色2.png" alt="生活尋寶家Ｑ版角色"><strong>生活尋寶家</strong><small>透過物品交換實踐永續</small></article><article class="persona-mini"><img src="./人格角色3.png" alt="手作創意家Ｑ版角色"><strong>手作創意家</strong><small>透過材料再利用實踐永續</small></article><article class="persona-mini"><img src="./人格角色4.png" alt="綠色生活家Ｑ版角色"><strong>綠色生活家</strong><small>透過日常行動實踐永續</small></article></div></div><div class="ai-lab" id="ai"><div class="ai-title"><span class="kicker light">AI GREEN LAB / 市集互動實驗室</span><h3>你的永續個性，<br>決定今天的冒險。</h3><p>先做永續人格測驗，再解鎖適合你的市集尋寶任務。</p></div><div class="ai-box"><div class="quiz-top"><b>✦ 永續人格測驗</b><span id="quizProgress">第 1 題 / 共 3 題</span></div><div class="meter"><span id="quizBar"></span></div><h4 id="quizQuestion">準備開始測驗</h4><div id="quizOptions" class="quiz-options"></div><div id="personaReveal" class="persona-reveal" hidden></div><div id="personaResult" class="quiz-result" aria-live="polite">回答三個問題，探索你的永續人格。</div></div></div>
+  <div class="hunt"><div><span class="kicker">YOUR PERSONAL MISSION</span><h3>✦ 我的市集尋寶任務</h3><p id="huntReason">完成永續人格測驗後，這裡會出現專屬任務與推薦理由。</p></div><div class="hunt-task"><strong id="huntTitle">等待解鎖任務</strong><p id="huntSteps">每一種人格都有不同、可在市集現場驗證的體驗。</p><button class="btn dark" id="completeHunt" disabled>🎯 解鎖我的尋寶成就</button></div></div>
+  <div class="match-lab" id="fashionStudio">
+    <div class="match-intro"><span class="kicker">AI REWEAR MATCH / 二手穿搭配對</span>
+      <h3>不是買更多，<i>而是搭得更好。</i></h3>
+      <p>只要選擇你喜歡的風格和穿搭場合，就能取得搭配建議，並探索市集裡適合尋找的二手單品。</p>
+    </div>
+    <div class="passport-caption"><span>✦</span> 穿搭靈感登機證 <small>選擇兩個條件，開啟你的風格旅程</small></div>
+    <div class="match-layout">
+      <div class="match-form">
+        <label>我喜歡的穿搭風格
+          <select id="matchMood">
+            <option value="韓系簡約">韓系簡約</option><option value="日系文青">日系文青</option><option value="復古學院">復古學院</option><option value="運動休閒">運動休閒</option><option value="法式浪漫">法式浪漫</option><option value="清新學院">清新學院</option><option value="戶外機能">戶外機能</option><option value="都會俐落">都會俐落</option><option value="丹寧休閒">丹寧休閒</option><option value="甜美穿搭">甜美穿搭</option>
+          </select>
+        </label>
+        <div class="choice-chips" data-select="matchMood" aria-label="快速選擇穿搭風格"></div>
+        <label>我要去哪裡穿？
+          <select id="matchOccasion"><option value="上課／日常">上課／日常</option><option value="逛市集">逛市集</option><option value="朋友聚會">朋友聚會</option><option value="約會">約會</option><option value="戶外出遊">戶外出遊</option><option value="上班／實習">上班／實習</option></select>
+        </label>
+        <div class="choice-chips" data-select="matchOccasion" aria-label="快速選擇穿搭場合"></div>
+        <button type="button" class="btn dark" id="matchButton">👗 揭曉我的今日穿搭 ✨</button>
+        <p class="fine">目前依照風格與場合提供示範推薦；正式平台可串接市集二手衣商品資料。</p>
+      </div>
+      <div class="match-result" aria-live="polite">
+        <div class="match-photo"><img id="matchImage" src="./穿搭靈感1.jpg" alt="韓系簡約二手穿搭示意"></div>
+        <div class="match-advice" id="matchAdvice"><span>✧ 你的穿搭靈感</span><h4>選擇風格與場合</h4><p>按下按鈕，就會顯示完整搭配建議及對應圖片。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section charge" id="charge"><div class="section-heading"><div><span class="kicker">02 / SMART CHARGING</span><h2>讓充電更聰明，<br><i>綠點也跟著增加。</i></h2><p>用你提供的裕隆城充電站實景，體驗尖峰與離峰的回饋差異。</p></div><span class="section-number">02</span></div><div class="feature"><div class="feature-photo"><img src="./充電站.jpg" alt="裕隆城 YES!來電充電站實景"><span>裕隆城充電站實景</span></div><div class="feature-card"><span class="kicker">GREEN POINT CALCULATOR</span><h3>充電綠點計算機 <span>ϟ</span></h3><div class="form-grid"><label>充電方式<select id="chargeType"><option value="slow">慢充（每滿 30 分鐘）</option><option value="fast">快充（每度電）</option></select></label><label>充電時段<select id="chargePeriod"><option value="off">離峰</option><option value="peak">尖峰</option></select></label><label class="wide" id="chargeLabel">充電時間（分鐘）<input id="chargeAmount" type="number" min="1" step="1" value="60"></label></div><button class="btn dark" id="calculateCharge">⚡ 算算我的充電綠點 ✨</button><div class="calc-answer" id="chargeResult" aria-live="polite"><small>預估可獲得</small><strong>— <span>綠點</span></strong><p>選擇條件並按下計算按鈕。</p></div><p class="fine">慢充每滿 30 分鐘：尖峰 75 點／離峰 150 點；快充每度：尖峰 20 點／離峰 50 點。試算不會直接入帳，也不提供車位預約。</p></div></div></section>
+<section class="section shuttle" id="shuttle"><div class="section-heading"><div><span class="kicker">03 / GREEN MOBILITY</span><h2>搭上綠色接駁，<br><i>把城市走得更輕盈。</i></h2><p>提案規劃大坪林捷運站與裕隆城間的電動接駁服務。</p></div><span class="section-number">03</span></div><div class="feature reverse"><div class="feature-photo"><img src="./接駁電車示意.png" alt="電動接駁車概念示意圖片"><span>電動接駁車概念示意・非實際營運照片</span></div><div class="feature-card"><span class="pill">提案規劃・尚非正式營運班次</span><h3>大坪林捷運站 <span>↔</span> 裕隆城</h3><p>完成搭乘驗證後，每趟可獲得 <b>15 綠點</b>，每日最多 2 趟，共 30 點。</p><div class="shuttle-counter"><div><small>本次示範搭乘</small><strong id="rideCount">0 <span>/ 2 趟</span></strong></div><div><small>搭乘可得</small><strong>+15 <span>點／趟</span></strong></div></div><button class="btn dark" id="rideShuttle">🚌 搭上綠色列車！＋15 點</button><div class="inline-feedback" id="rideFeedback" aria-live="polite">點擊體驗接駁驗證與綠點回饋。</div></div></div></section>
+<section class="section daily" id="daily"><div class="section-heading"><div><span class="kicker">04 / EVERYDAY GREEN</span><h2>小小行動，<i>累積大大改變。</i></h2><p>日常生活也能輕鬆累積永續成就。</p></div><span class="section-number">04</span></div><div class="daily-cards"><article><div class="daily-icon">☕</div><span>01 / 自備環保杯</span><h3>喝一杯，也能更環保</h3><p>合作店家驗證自備杯消費，示範回饋每次 600 綠點。</p><div class="daily-bottom"><b>+600 點</b><button class="btn dark" id="cupAction">✨ 點亮我的綠活成就</button></div></article><article><div class="daily-icon">♻</div><span>02 / 舊衣循環</span><h3>讓舊衣繼續旅行</h3><p>每滿 0.5 公斤回饋 150 點，每月上限 5 公斤。</p><label class="weight-label">回收重量（公斤）<input type="number" id="clothesWeight" value="0.5" min="0.5" max="5" step="0.5"></label><div class="daily-bottom"><b id="recyclePreview">預估 +150 點</b><button class="btn dark" id="recycleAction">♻ 讓舊衣再出發！</button></div></article><article><div class="daily-icon">🥤</div><span>03 / 循環杯體驗</span><h3>借還循環杯，少用一次性杯</h3><p>完成借還驗證，累積綠活行動紀錄；點數待合作確認。</p><div class="daily-bottom"><b>行動徽章</b><button class="btn dark" id="cycleAction">✨ 點亮我的綠活成就</button></div></article></div></section>
+<section class="section green-finale" id="planner">
+  <div class="finale-heading">
+    <div><span class="kicker light">✦ MY GREEN JOURNEY / 今日綠活紀念</span>
+      <h2>今天的綠活足跡<br><i>值得被收藏！</i></h2>
+      <p>你完成的任務、集章與綠點都會在這裡留下紀錄。點一下，就能帶走專屬成果圖片。</p>
+    </div>
+    <div class="finale-illustration">✦<span>GREEN<br>PASSPORT</span>✳</div>
+  </div>
+  <div class="finale-card">
+    <div class="finale-card-head">
+      <div><span class="kicker">✳ TODAY'S GREEN MEMORY</span><h3>我的綠活冒險成果</h3><p id="finaleGreeting">完成任務後，這裡會記錄你的綠色足跡。</p></div>
+      <div class="finale-date" id="finaleDate"></div>
+    </div>
+    <div class="finale-stats">
+      <div><span>✦</span><strong id="finaleStamps">0 / 4</strong><small>護照印記</small></div>
+      <div><span>✳</span><strong id="finalePoints">0</strong><small>累積獲得綠點</small></div>
+      <div><span>✓</span><strong id="finaleActions">0</strong><small>完成綠活行動</small></div>
+    </div>
+    <div class="finale-progress-head"><strong>我的永續冒險進度</strong><span id="finaleProgressText">再解鎖 4 枚印記！</span></div>
+    <div class="finale-progress"><div id="finaleProgressBar"></div></div>
+    <div class="finale-stamps" id="finaleStampIcons"></div>
+    <div class="finale-latest"><strong>✧ 最近的綠活回憶</strong><p id="finaleLatest">還沒有行動紀錄，從上面的任務開始吧！</p></div>
+    <div class="finale-actions">
+      <button class="btn lime" id="shareGreenCard" type="button">✨ 生成我的綠活成果圖片</button>
+      <a class="btn finale-outline" href="#assistant">再探索一個新任務 ↗</a>
+    </div>
+    <p class="fine">成果卡依照本機瀏覽器的示範紀錄產生，不代表真實會員集點或官方減碳認證。</p>
+  </div>
+</section>
+
+</main>
+<footer><div class="footer-brand">✳ 裕隆城 <b>綠活護照</b></div><p>一本綠活護照，裕約永續未來。</p><small>以更有趣的方式，讓永續成為日常。</small></footer>
+<a class="floating-passport" href="#passport" aria-label="前往我的護照"><span>✳</span><span>打開護照 <b id="floatingPoints">0</b> 點</span></a>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="./script.js"></script>
+</body>
+</html>
